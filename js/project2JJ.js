@@ -1,4 +1,5 @@
- $(document).ready(function(e){
+ $.noConflict();
+jQuery(document).ready(function($){
 	var scrollPosition;
 	var scrollValue = 0;
 	$(window).on('scroll', function(){
